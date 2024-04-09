@@ -67,7 +67,7 @@ p {
 }
 
 .intro {
-  width: 30%;
+  width: 90%; /* Adjusted width */
   margin: auto;
 }
 
@@ -77,43 +77,35 @@ p {
 }
 
 .top-cloud {
-  position: absolute;
-  right: 350px;
-  top: 40px;
+  display: none; /* Hide clouds on smaller screens */
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 350px;
+  display: none; /* Hide clouds on smaller screens */
 }
 
 .skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+  width: 90%; /* Adjusted width */
+  margin: 50px auto; /* Adjusted margin */
   text-align: left;
 }
 
 .jenpic {
-  width: 8%;
-  padding-top: 100px;
+  width: 20%; /* Adjusted width */
+  padding-top: 20px; /* Adjusted padding */
 }
 
-.img-computer {
-  margin-left: 20px;
-  width: 25%;
-  float: left;
-}
-
+.img-computer,
 .img-books {
-  margin-left: 30px;
-  width: 22%;
-  float: right;
+  width: 100%; /* Make images responsive */
+  margin: 20px 0; /* Adjusted margin */
+  float: none; /* Remove float */
 }
 
 .contact-message {
-  width: 40%;
+  width: 90%; /* Adjusted width */
   margin: 40px auto 60px;
+  word-wrap: break-word; /* Ensure long words wrap */
 }
 
 .copyright {
@@ -129,14 +121,15 @@ p {
   background-image: -ms-linear-gradient(top, #B7CADB, #B7CADB);
   background-image: -o-linear-gradient(top, #B7CADB, #B7CADB);
   background-image: linear-gradient(to bottom, #B7CADB, #B7CADB);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
   font-size: 18px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   text-decoration: none;
+  display: inline-block; /* Ensure button wraps on smaller screens */
 }
 
 .btn:hover {
@@ -148,3 +141,4 @@ p {
   background-image: linear-gradient(to bottom, #DAB88B, #DAB88B);
   text-decoration: none;
 }
+
