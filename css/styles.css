@@ -67,7 +67,7 @@ p {
 }
 
 .intro {
-  width: 90%; /* Adjusted width */
+  width: 90%;
   margin: auto;
 }
 
@@ -85,27 +85,29 @@ p {
 }
 
 .skill-row {
-  width: 90%; /* Adjusted width */
-  margin: 50px auto; /* Adjusted margin */
+  width: 90%;
+  margin: 50px auto;
   text-align: left;
 }
 
 .jenpic {
-  width: 20%; /* Adjusted width */
-  padding-top: 20px; /* Adjusted padding */
+  width: 100%; /* Adjusted width */
+  max-width: 150px; /* Set maximum width for responsiveness */
+  padding-top: 20px;
 }
 
 .img-computer,
 .img-books {
-  width: 100%; /* Make images responsive */
-  margin: 20px 0; /* Adjusted margin */
-  float: none; /* Remove float */
+  width: 100%;
+  max-width: 300px; /* Adjusted maximum width */
+  margin: 20px auto; /* Center the images */
+  display: block; /* Ensure images are centered */
 }
 
 .contact-message {
-  width: 90%; /* Adjusted width */
+  width: 90%;
   margin: 40px auto 60px;
-  word-wrap: break-word; /* Ensure long words wrap */
+  word-wrap: break-word;
 }
 
 .copyright {
@@ -116,29 +118,4 @@ p {
 
 .btn {
   background: #B7CADB;
-  background-image: -webkit-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: -moz-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: -ms-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: -o-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: linear-gradient(to bottom, #B7CADB, #B7CADB);
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
   border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 18px;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline-block; /* Ensure button wraps on smaller screens */
-}
-
-.btn:hover {
-  background: #DAB88B;
-  background-image: -webkit-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: -moz-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: -ms-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: -o-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: linear-gradient(to bottom, #DAB88B, #DAB88B);
-  text-decoration: none;
-}
-
