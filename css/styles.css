@@ -67,7 +67,7 @@ p {
 }
 
 .intro {
-  width: 90%;
+  width: 30%;
   margin: auto;
 }
 
@@ -77,37 +77,43 @@ p {
 }
 
 .top-cloud {
-  display: none; /* Hide clouds on smaller screens */
+  position: absolute;
+  right: 350px;
+  top: 40px;
 }
 
 .bottom-cloud {
-  display: none; /* Hide clouds on smaller screens */
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
 }
 
 .skill-row {
-  width: 90%;
-  margin: 50px auto;
+  width: 50%;
+  margin: 100px auto 100px auto;
   text-align: left;
 }
 
 .jenpic {
-  width: 100%; 
-  max-width: 150px; /* Set maximum width for responsiveness */
-  padding-top: 20px;
+  width: 8%;
+  padding-top: 100px;
 }
 
-.img-computer,
+.img-computer {
+  margin-left: 20px;
+  width: 25%;
+  float: left;
+}
+
 .img-books {
-  width: 10%;
-  max-width: 150px; 
-  margin: 20px auto; /* Center the images */
-  display: block; /* Ensure images are centered */
+  margin-left: 30px;
+  width: 22%;
+  float: right;
 }
 
 .contact-message {
-  width: 90%;
+  width: 40%;
   margin: 40px auto 60px;
-  word-wrap: break-word;
 }
 
 .copyright {
@@ -118,16 +124,27 @@ p {
 
 .btn {
   background: #B7CADB;
+  background-image: -webkit-linear-gradient(top, #B7CADB, #B7CADB);
+  background-image: -moz-linear-gradient(top, #B7CADB, #B7CADB);
+  background-image: -ms-linear-gradient(top, #B7CADB, #B7CADB);
+  background-image: -o-linear-gradient(top, #B7CADB, #B7CADB);
+  background-image: linear-gradient(to bottom, #B7CADB, #B7CADB);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
-  transition: background-color 0.3s; 
 }
 
 .btn:hover {
   background: #DAB88B;
+  background-image: -webkit-linear-gradient(top, #DAB88B, #DAB88B);
+  background-image: -moz-linear-gradient(top, #DAB88B, #DAB88B);
+  background-image: -ms-linear-gradient(top, #DAB88B, #DAB88B);
+  background-image: -o-linear-gradient(top, #DAB88B, #DAB88B);
+  background-image: linear-gradient(to bottom, #DAB88B, #DAB88B);
   text-decoration: none;
 }
