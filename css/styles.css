@@ -91,15 +91,15 @@ p {
 }
 
 .jenpic {
-  width: 100%; /* Adjusted width */
+  width: 100%; 
   max-width: 150px; /* Set maximum width for responsiveness */
   padding-top: 20px;
 }
 
 .img-computer,
 .img-books {
-  width: 100%;
-  max-width: 300px; /* Adjusted maximum width */
+  width: 10%;
+  max-width: 150px; 
   margin: 20px auto; /* Center the images */
   display: block; /* Ensure images are centered */
 }
@@ -119,3 +119,15 @@ p {
 .btn {
   background: #B7CADB;
   border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s; 
+}
+
+.btn:hover {
+  background: #DAB88B;
+  text-decoration: none;
+}
