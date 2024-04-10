@@ -91,7 +91,6 @@ p {
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
-  text-align: left;
 }
 
 .jenpic {
@@ -147,4 +146,10 @@ p {
   background-image: -o-linear-gradient(top, #DAB88B, #DAB88B);
   background-image: linear-gradient(to bottom, #DAB88B, #DAB88B);
   text-decoration: none;
+}
+div[style*="display:none"] {
+  display: block !important;
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
 }
