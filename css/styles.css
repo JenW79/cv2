@@ -7,15 +7,15 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 5% auto 0 auto;
   font-family: 'Pacifico', cursive;
-  font-size: 5.625rem;
+  font-size: 3.5rem;
   color: #DAB88B;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #DAB88B;
   font-weight: normal;
 }
@@ -37,116 +37,77 @@ a:hover {
 }
 
 hr {
-  border-width: 15px;
+  border-width: 5px;
   border-color: #F3E9DD;
   border-style: none;
   border-top-style: dotted;
-  width: 15%;
+  width: 50%;
   margin-top: 5%;
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
-.top-container {
+.top-container,
+.bottom-container {
   background-color: #FDF6EC;
-  padding: 50px;
+  padding: 5%;
 }
 
 .middle-container {
-  position: relative;
-  margin: 100px 0 100px 0;
-}
-
-.bottom-container {
-  background-color: #FDF6EC;
-  position: relative;
-  margin: auto;
-  padding: 50px 0 20px;
+  margin: 10% 5%;
 }
 
 .intro {
-  width: 30%;
-  margin: auto;
-}
-
-.pro {
-  color: #B7CADB;
-  text-decoration: underline;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 0px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 25px;
-  bottom: 30px;
+  width: 80%;
+  margin: 5% auto;
 }
 
 .skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+  width: 90%;
+  margin: 10% auto;
 }
 
 .jenpic {
-  width: 8%;
-  padding-top: 100px;
+  width: 20%;
+  padding-top: 10%;
 }
 
-.img-computer {
-  margin-left: 20px;
-  width: 25%;
-  float: left;
-}
-
+.img-computer,
 .img-books {
-  margin-left: 30px;
-  width: 22%;
-  float: right;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
+  width: 90%;
+  margin: 5% auto;
 }
 
 .copyright {
   color: #DAB88B;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 5% 0;
 }
 
 .btn {
   background: #B7CADB;
-  background-image: -webkit-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: -moz-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: -ms-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: -o-linear-gradient(top, #B7CADB, #B7CADB);
-  background-image: linear-gradient(to bottom, #B7CADB, #B7CADB);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 18px;
-  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
   background: #DAB88B;
-  background-image: -webkit-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: -moz-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: -ms-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: -o-linear-gradient(top, #DAB88B, #DAB88B);
-  background-image: linear-gradient(to bottom, #DAB88B, #DAB88B);
   text-decoration: none;
 }
+
 div[style*="display:none"] {
   display: block !important;
   position: absolute;
