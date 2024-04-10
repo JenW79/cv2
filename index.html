@@ -90,11 +90,22 @@
 
       <div class="contact-me">
         <h2>Get In Touch.</h2>
-        <h3>If your interested in learning more:</h3>
+        <h3>If you're interested in learning more:</h3>
         <p class="contact-message">Don't hesitate to reach out!</p>
-        <a class="btn" href="mailto:jkwill646@gmail.com">CONTACT ME</a>
+      
+        <!-- Add a form with hidden honeypot field -->
+        <form id="contact-form" action="#" method="post">
+          <!-- Hidden honeypot field -->
+          <div style="display:none;">
+            <input type="text" name="honeypot" id="honeypot" tabindex="-1" autocomplete="no" />
+          </div>
+      
+          <!-- Mailto link within a button -->
+          <a id="contact-btn" class="btn" href="mailto:jkwill646@gmail.com">CONTACT ME</a>
+        </form>
       </div>
-    </div>
+      
+      <script src="hpscript.js"></script>
 
     <div class="bottom-container">
       <a class="footer-link" href="https://coming soon/">LinkedIn</a>
