@@ -72,7 +72,6 @@ p {
 .skill-row {
   width: 90%;
   margin: 10% auto;
-  text-align: left;
 }
 
 .jenpic {
@@ -82,7 +81,7 @@ p {
 
 .img-computer,
 .img-books {
-  max-width: 100%;
+  max-width: 20%;
   margin: 0 auto;
 }
 
