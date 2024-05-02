@@ -60,6 +60,9 @@ p {
 .middle-container {
   margin: 10% 5%;
 }
+.top-cloud, .bottom-cloud {
+  position: absolute; 
+}
 
 .intro {
   width: 80%;
@@ -69,6 +72,7 @@ p {
 .skill-row {
   width: 90%;
   margin: 10% auto;
+  text-align: left;
 }
 
 .jenpic {
@@ -78,7 +82,7 @@ p {
 
 .img-computer,
 .img-books {
-  width: 40%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -113,4 +117,23 @@ div[style*="display:none"] {
   position: absolute;
   left: -9999px;
   top: -9999px;
+}
+/*mobile adjustments*/
+@media only screen and (max-width: 768px) {
+
+  .top-cloud, .bottom-cloud {
+    display: none; 
+  }
+
+  .jenpic {
+    width: 50%; 
+  }
+
+  .skill-row {
+    margin: 5% auto; 
+  }
+
+  .btn {
+    width: 100%; 
+  }
 }
